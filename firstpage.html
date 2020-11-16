@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Выполнение практического задания № 1 по HTML</title>
+    <style>
+    body {
+        background: #FFFFD9;
+    }
+    h1 {
+        text-align: center;
+    }
+    a {
+        color: #0000FF;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #FF0000;
+    }
+    img {
+        width: 400px;
+    }
+    .container {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .container > img {
+        margin: 0 auto;
+    }
+    .green__link {
+        color: green;
+        font-size: 25px;
+    }
+    .next {
+        position: fixed;
+        width: auto;
+        height: auto;
+        padding: 20px 40px;
+        background: #FF0000;
+        color: #fff;
+        border-radius: 8px;
+        bottom: 10px;
+        right: 10px;
+    }
+    .next:hover {
+        border: #FF0000 3px solid;
+        background: none;
+        color: #FF0000;
+    }
+    </style>
+</head>
+<body>
+    <h1>Выполнение практического задания № 1 по HTML</h1>
+    <p>Виды операционных систем:</p>
+    <ol>
+        <li>Unix</li>
+        <li>Linux</li>
+        <li>FreeBSD</li>
+        <li><b>OS/2</b></li>
+        <li>MacOS</li>
+        <li>VMSP5</li>
+        <li>SunOS</li>
+        <li>VMESA</li>
+        <li><a href="#">Windows</a></li>
+    </ol>
+    <p>Активный контент:</p>
+    <ol>
+        <li>Java</li>
+        <li>ActiveX</li>
+        <li>JavaScript</li>
+        <li><b>VBScript</b></li>
+        <li><i>Action Script</i></li>
+        <li>Coockies</li>
+    </ol>
+    <img src="img.jpg">
+    <br>
+    <a href="#"><img src="img.jpg" class="img"></a>
+    <div class="container">
+        <img src="img.jpg">
+        <a href="#" class="title">Актриса Дарья Сагалова</a>
+    </div>
+    <p>
+        Что такое <a href="#" class="green__link">гипертекстовая ссылка</a> (или, как чаще говорят, просто ссылка)?
+    </p>
+    <p>
+        С помощью ссылки устанавливается связь с другим (или с тем же) документом. Ссылкой может быть фрагмент текста или изображение. По умолчанию текстовая ссылка подчеркнута. При подведении курсора мыши к гипертекстовой ссылке он превращается в раскрытую ладонь. При нажатии на ссылку браузер обращается к серверу, запрашивая документ, который указан в html-теге ссылки.
+    </p>
+    <p>Для поиска информации воспользуйтесь поисковой машиной <a href="https://mail.ru/">www.mail.ru</a></p>
+    <a href="secondpage.html" class="next">Практическое задание №2 ===></a>
+</body>
+</html>
